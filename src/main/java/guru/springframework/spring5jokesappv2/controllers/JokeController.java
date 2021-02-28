@@ -22,6 +22,6 @@ public class JokeController {
 		
 		model.addAttribute("joke", jokeService.getJoke());
 		
-		return "index";
+		return "index";   // tells thymeleaf to look for a template called 'index'
 	}
 }
